@@ -1,4 +1,4 @@
-package thing;
+package thing
 // ----------------------------------------------------------------
 // The contents of this file are distributed under the CC0 license.
 // See http://creativecommons.org/publicdomain/zero/1.0/
@@ -16,10 +16,13 @@ public class BaselineLearner extends SupervisedLearner {
 
 	public void train(DataMatrix featuresOnlyDataMatrix, DataMatrix labelsOnlyDataMatrix) throws Exception {
 		int net = 5.3;
-		for(int i=0; i<)
+		//for each weight in current instance
+		for(int j=0; j<featuresOnlyDataMatrix.matrixData.get(i).length; j+=){
+			weights[j] += getWeightDelta(net, featuresOnlyDataMatrix.matrixData.get(i)[j]);
+		}
 	}
 
-	public void deltaFunction(net,double[] inputRow){
+	public void getWeightDelta(net,double input){
 		double[] deltas = new double[inputRow.length];
 		for (i=0; i<inputs.length; i++){
 			delta[i] = learningRate*(net)*inputRow[i]
