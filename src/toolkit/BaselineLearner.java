@@ -24,18 +24,6 @@ public class BaselineLearner extends SupervisedLearner {
 			}
 		}
 	}
-			for(int j=0; j<featuresOnlyDataMatrix.matrixData.get(i).length; j+=){
-		weights[j] += getWeightDelta(net, featuresOnlyDataMatrix.matrixData.get(i)[j]);
-	}
-}
-
-	public void getWeightDelta(net,double input){
-		double[] deltas = new double[inputRow.length];
-		for (i=0; i<inputs.length; i++){
-			delta[i] = learningRate*(net)*inputRow[i]
-		}
-		return deltas;
-	}
 
 	public void predictInstanceLabelsFromFeatures(double[] featuresForInstance, double[] arrayInWhichToPutLabels) throws Exception {
 		for(int i = 0; i < predictedLabels.length; i++) {

@@ -40,7 +40,7 @@ public class Perceptron extends SupervisedLearner {
 			}else{
 				//alter weights
 				for(int j=0; j<featuresOnlyDataMatrix.matrixData.get(i).length; j++){
-					weights[j] += getWeightDelta(net, featuresOnlyDataMatrix.matrixData.get(i)[j]);
+					weights[j] += this.getWeightDelta(net, featuresOnlyDataMatrix.matrixData.get(i)[j]);
 				}
 			}
 		}
