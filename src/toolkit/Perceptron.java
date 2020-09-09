@@ -25,21 +25,35 @@ public class Perceptron extends SupervisedLearner {
 	}
 
 	public void train(DataMatrix featuresOnlyDataMatrix, DataMatrix labelsOnlyDataMatrix) throws Exception {
+		//initialize weights random;y between 0 and 1
 		this.weights = new double[labelsOnlyDataMatrix.getColCount()+1];
 		for(int i = 0; i < weights.length; i++){
 			weights[i] = rand.nextDouble();
 		}
+		//loop through instances
 		for(int i = 0; i < labelsOnlyDataMatrix.getColCount(); i++) {
-
+		//calculate net for activation
 			double net = getNet(featuresOnlyDataMatrix.matrixData.get(i));
+			//basic activation switch
 			if(labelsOnlyDataMatrix.matrixData.get(i)[0] - net ==0){
 				//pass
 			}else{
-				//implement delta function on weights
+				//alter weights
+				for(int j=0; j<featuresOnlyDataMatrix.matrixData.get(i).length; j++){
+					weights[j] += getWeightDelta(net, featuresOnlyDataMatrix.matrixData.get(i)[j]);
+				}
 			}
 		}
 		this.weights=weights;
 	}
+
+
+
+
+	public double getWeightDelta(double net,double input){
+		return learningRate*(net)*input;
+	}
+
 
 	public void predictInstanceLabelsFromFeatures(double[] featuresForInstance, double[] arrayInWhichToPutLabels) throws Exception {
 		//implement this somehow
