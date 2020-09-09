@@ -122,32 +122,38 @@ public class MLSystemManager {
 			}
 			else if (evalMethod.equals("random"))
 			{
+				double lastAccuracy = 0;
+				double currentAccuracy = 100;
 				System.out.println("Calculating accuracy on a random hold-out set...");
-				double percentUsedForTraining = Double.parseDouble(evalParameter);
-				if (percentUsedForTraining < 0 || percentUsedForTraining > 1) {
-					throw new Exception("Percentage for random evaluation must be between 0 and 1");
-				}
-				System.out.println("Percentage used for training: " + percentUsedForTraining);
-				System.out.println("Percentage used for testing: " + (1 - percentUsedForTraining));
-				fullDataMatrix.shuffleRowOrder(rand);
-				int trainingInstanceCount = (int)(percentUsedForTraining * fullDataMatrix.getRowCount());
-				DataMatrix trainingSetFeaturesOnlyDataMatrix = new DataMatrix(fullDataMatrix, 0, 0, trainingInstanceCount, fullDataMatrix.getColCount() - 1);
-				DataMatrix trainingSetLabelsOnlyDataMatrix = new DataMatrix(fullDataMatrix, 0, fullDataMatrix.getColCount() - 1, trainingInstanceCount, 1);
-				DataMatrix testSetFeaturesOnlyDataMatrix = new DataMatrix(fullDataMatrix, trainingInstanceCount, 0, fullDataMatrix.getRowCount() - trainingInstanceCount, fullDataMatrix.getColCount() - 1);
-				DataMatrix testSetLabelsOnlyDataMatrix = new DataMatrix(fullDataMatrix, trainingInstanceCount, fullDataMatrix.getColCount() - 1, fullDataMatrix.getRowCount() - trainingInstanceCount, 1);
-				double startTime = System.currentTimeMillis();
-				supervisedLearner.train(trainingSetFeaturesOnlyDataMatrix, trainingSetLabelsOnlyDataMatrix);
-				double elapsedTime = System.currentTimeMillis() - startTime;
-				System.out.println("Time to train (in seconds): " + elapsedTime / 1000.0);
-				double predictiveAccuracyOnTrainingDataset = supervisedLearner.measurePredictiveAccuracy(trainingSetFeaturesOnlyDataMatrix, trainingSetLabelsOnlyDataMatrix, null);
-				System.out.println("Training set accuracy: " + predictiveAccuracyOnTrainingDataset);
-				DataMatrix confusionMatrix = new DataMatrix();
-				double predictiveAccuracyOnTestDataset = supervisedLearner.measurePredictiveAccuracy(testSetFeaturesOnlyDataMatrix, testSetLabelsOnlyDataMatrix, confusionMatrix);
-				System.out.println("Test set accuracy: " + predictiveAccuracyOnTestDataset);
-				if(printConfusionMatrix) {
-					System.out.println("\nConfusion matrix: (Row=target value, Col=predicted value)");
-					confusionMatrix.print();
-					System.out.println("\n");
+				while(lastAccuracy-currentAccuracy!=0) {
+					lastAccuracy=currentAccuracy;
+					double percentUsedForTraining = Double.parseDouble(evalParameter);
+					if (percentUsedForTraining < 0 || percentUsedForTraining > 1) {
+						throw new Exception("Percentage for random evaluation must be between 0 and 1");
+					}
+					System.out.println("Percentage used for training: " + percentUsedForTraining);
+					System.out.println("Percentage used for testing: " + (1 - percentUsedForTraining));
+					fullDataMatrix.shuffleRowOrder(rand);
+					int trainingInstanceCount = (int) (percentUsedForTraining * fullDataMatrix.getRowCount());
+					DataMatrix trainingSetFeaturesOnlyDataMatrix = new DataMatrix(fullDataMatrix, 0, 0, trainingInstanceCount, fullDataMatrix.getColCount() - 1);
+					DataMatrix trainingSetLabelsOnlyDataMatrix = new DataMatrix(fullDataMatrix, 0, fullDataMatrix.getColCount() - 1, trainingInstanceCount, 1);
+					DataMatrix testSetFeaturesOnlyDataMatrix = new DataMatrix(fullDataMatrix, trainingInstanceCount, 0, fullDataMatrix.getRowCount() - trainingInstanceCount, fullDataMatrix.getColCount() - 1);
+					DataMatrix testSetLabelsOnlyDataMatrix = new DataMatrix(fullDataMatrix, trainingInstanceCount, fullDataMatrix.getColCount() - 1, fullDataMatrix.getRowCount() - trainingInstanceCount, 1);
+					double startTime = System.currentTimeMillis();
+					supervisedLearner.train(trainingSetFeaturesOnlyDataMatrix, trainingSetLabelsOnlyDataMatrix);
+					double elapsedTime = System.currentTimeMillis() - startTime;
+					System.out.println("Time to train (in seconds): " + elapsedTime / 1000.0);
+					double predictiveAccuracyOnTrainingDataset = supervisedLearner.measurePredictiveAccuracy(trainingSetFeaturesOnlyDataMatrix, trainingSetLabelsOnlyDataMatrix, null);
+					System.out.println("Training set accuracy: " + predictiveAccuracyOnTrainingDataset);
+					DataMatrix confusionMatrix = new DataMatrix();
+					double predictiveAccuracyOnTestDataset = supervisedLearner.measurePredictiveAccuracy(testSetFeaturesOnlyDataMatrix, testSetLabelsOnlyDataMatrix, confusionMatrix);
+					System.out.println("Test set accuracy: " + predictiveAccuracyOnTestDataset);
+					if (printConfusionMatrix) {
+						System.out.println("\nConfusion matrix: (Row=target value, Col=predicted value)");
+						confusionMatrix.print();
+						System.out.println("\n");
+					}
+					currentAccuracy = predictiveAccuracyOnTestDataset;
 				}
 			}
 			else if (evalMethod.equals("cross"))

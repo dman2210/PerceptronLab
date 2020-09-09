@@ -17,7 +17,7 @@ import java.util.Random;
 public class Perceptron extends SupervisedLearner {
 	Random rand;
 	double learningRate = 0.2;
-	double[] predictedLabels;
+	double[] predictedLabels ;
 	double[] weights;
 
 	public Perceptron(Random rand) {
@@ -33,14 +33,18 @@ public class Perceptron extends SupervisedLearner {
 		//loop through instances
 		for(int i = 0; i < labelsOnlyDataMatrix.getColCount(); i++) {
 		//calculate net for activation
-			double net = getNet(featuresOnlyDataMatrix.matrixData.get(i));
+
+			int activated = discernActivation(getNet(featuresOnlyDataMatrix.matrixData.get(i)));
+
 			//basic activation switch
-			if(labelsOnlyDataMatrix.matrixData.get(i)[0] - net ==0){
+			if(labelsOnlyDataMatrix.matrixData.get(i)[0] - activated ==0){
+//				predictedLabels[i]= 1;
 				//pass
 			}else{
+//				predictedLabels[i]= 0;
 				//alter weights
 				for(int j=0; j<featuresOnlyDataMatrix.matrixData.get(i).length; j++){
-					weights[j] += this.getWeightDelta(net, featuresOnlyDataMatrix.matrixData.get(i)[j]);
+					weights[j] += this.getWeightDelta(activated, featuresOnlyDataMatrix.matrixData.get(i)[j]);
 				}
 			}
 		}
@@ -57,9 +61,8 @@ public class Perceptron extends SupervisedLearner {
 
 	public void predictInstanceLabelsFromFeatures(double[] featuresForInstance, double[] arrayInWhichToPutLabels) throws Exception {
 		//implement this somehow
-		for(int i = 0; i < predictedLabels.length; i++) {
-			arrayInWhichToPutLabels[i] = predictedLabels[i];
-		}
+		double activated = (int)discernActivation(getNet(featuresForInstance));
+		arrayInWhichToPutLabels[0] = activated;
 	}
 
 	private double getNet(double[] featuresOnlyDataMatrixRow){
@@ -69,6 +72,14 @@ public class Perceptron extends SupervisedLearner {
 		}
 		net+=1*this.weights[weights.length-1];
 		return net;
+	}
+
+	private int discernActivation(double net){
+		int activated=0;
+		if(net>0){
+			activated = 1;
+		}
+		return activated;
 	}
 
 }
