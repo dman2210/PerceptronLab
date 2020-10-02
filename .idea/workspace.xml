@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25ade893-c459-4b4f-86c8-16908235ffb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/toolkit/PerceptronTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PerceptronLab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PerceptronLab.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -54,15 +56,29 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/toolkit" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="toolkit" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Repos\PerceptronLab\src\toolkit" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PerceptronTest.getWeightDelta">
     <configuration name="Train" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="toolkit.MLSystemManager" />
       <module name="PerceptronLab" />
@@ -72,6 +88,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PerceptronTest.getWeightDelta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PerceptronLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="toolkit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="toolkit" />
+      <option name="MAIN_CLASS_NAME" value="toolkit.PerceptronTest" />
+      <option name="METHOD_NAME" value="getWeightDelta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Train" />
+      <item itemvalue="JUnit.PerceptronTest.getWeightDelta" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PerceptronTest.getWeightDelta" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -145,6 +186,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="723" height="273" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1601498942133" />
+    <state x="498" y="324" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1601660771357">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="498" y="324" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.864@0.0.1536.864" timestamp="1601660771357" />
+    <state x="540" y="202" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601660712660">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="540" y="202" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864@0.0.1536.864" timestamp="1601660712660" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
