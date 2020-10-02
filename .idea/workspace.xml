@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25ade893-c459-4b4f-86c8-16908235ffb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/toolkit/PerceptronTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PerceptronLab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PerceptronLab.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toolkit/PerceptronTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toolkit/PerceptronTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,22 +152,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="548" y="199" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601330297920" />
-    <state width="1493" height="226" key="GridCell.Tab.0.bottom" timestamp="1601580465939">
+    <state width="1493" height="226" key="GridCell.Tab.0.bottom" timestamp="1601661860881">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601580465939" />
-    <state width="1493" height="226" key="GridCell.Tab.0.center" timestamp="1601580465939">
+    <state width="1493" height="226" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601661860881" />
+    <state width="1493" height="226" key="GridCell.Tab.0.center" timestamp="1601661860881">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601580465939" />
-    <state width="1493" height="226" key="GridCell.Tab.0.left" timestamp="1601580465939">
+    <state width="1493" height="226" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601661860881" />
+    <state width="1493" height="226" key="GridCell.Tab.0.left" timestamp="1601661860881">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601580465939" />
-    <state width="1493" height="226" key="GridCell.Tab.0.right" timestamp="1601580465939">
+    <state width="1493" height="226" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601661860881" />
+    <state width="1493" height="226" key="GridCell.Tab.0.right" timestamp="1601661860881">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601580465939" />
+    <state width="1493" height="226" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601661860881" />
     <state width="723" height="273" key="GridCell.Tab.1.bottom" timestamp="1601498942134">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -186,10 +184,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="723" height="273" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1601498942133" />
-    <state x="498" y="324" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1601660771357">
+    <state x="498" y="324" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1601661792356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="498" y="324" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.864@0.0.1536.864" timestamp="1601660771357" />
+    <state x="498" y="324" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.864@0.0.1536.864" timestamp="1601661792356" />
     <state x="540" y="202" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601660712660">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -211,6 +209,11 @@
           <url>file://$PROJECT_DIR$/src/toolkit/Perceptron.java</url>
           <line>105</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/toolkit/PerceptronTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/toolkit/Perceptron.java</url>
