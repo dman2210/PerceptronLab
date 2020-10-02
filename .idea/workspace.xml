@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,9 +23,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25ade893-c459-4b4f-86c8-16908235ffb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/toolkit/PerceptronTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PerceptronLab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PerceptronLab.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/BaselineLearner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/DataMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/LazyUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/MLSystemManager$ArgParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/MLSystemManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/Perceptron.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/PerceptronTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/SupervisedLearner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/data.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/datademo.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/datat.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/votingMissingValuesReplaced.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toolkit/BaselineLearner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/BaselineLearner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toolkit/DataMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/DataMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toolkit/LazyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/LazyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toolkit/MLSystemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/MLSystemManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toolkit/Perceptron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/Perceptron.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toolkit/PerceptronTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/toolkit/PerceptronTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toolkit/SupervisedLearner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/SupervisedLearner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toolkit/data.arff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/data.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toolkit/datademo.arff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/datademo.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toolkit/datat.arff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/datat.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toolkit/votingMissingValuesReplaced.arff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/votingMissingValuesReplaced.arff" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +78,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="E:\backup\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -61,29 +96,39 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/toolkit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="toolkit" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="toolkit" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Repos\PerceptronLab\src" />
       <recent name="C:\Repos\PerceptronLab\src\toolkit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PerceptronTest.getWeightDelta">
+  <component name="RunManager" selected="Application.Train">
     <configuration name="Train" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="toolkit.MLSystemManager" />
       <module name="PerceptronLab" />
       <option name="PROGRAM_PARAMETERS" value="-L perceptron -A votingMissingValuesReplaced.arff -E random 0.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/toolkit" />
+      <extension name="coverage" runner="jacoco" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,10 +183,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="232" y="54" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601580363998">
+    <state x="232" y="54" width="1089" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601664846106">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="232" y="54" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1601580363998" />
+    <state x="232" y="54" width="1089" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1601664846106" />
     <state x="514" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601492755815">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -150,26 +195,34 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="498" y="234" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1601330221513" />
+    <state x="490" y="121" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1601664702572">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="490" y="121" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.864@0.0.1536.864" timestamp="1601664702572" />
+    <state x="551" y="297" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601665219980">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="551" y="297" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1601665219980" />
     <state x="548" y="199" key="FileChooserDialogImpl" timestamp="1601330297920">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="548" y="199" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601330297920" />
-    <state width="1493" height="226" key="GridCell.Tab.0.bottom" timestamp="1601580465939">
+    <state width="1493" height="226" key="GridCell.Tab.0.bottom" timestamp="1601665270988">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601580465939" />
-    <state width="1493" height="226" key="GridCell.Tab.0.center" timestamp="1601580465939">
+    <state width="1493" height="226" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601665270988" />
+    <state width="1493" height="226" key="GridCell.Tab.0.center" timestamp="1601665270988">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601580465939" />
-    <state width="1493" height="226" key="GridCell.Tab.0.left" timestamp="1601580465939">
+    <state width="1493" height="226" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601665270988" />
+    <state width="1493" height="226" key="GridCell.Tab.0.left" timestamp="1601665270988">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601580465939" />
-    <state width="1493" height="226" key="GridCell.Tab.0.right" timestamp="1601580465939">
+    <state width="1493" height="226" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601665270988" />
+    <state width="1493" height="226" key="GridCell.Tab.0.right" timestamp="1601665270988">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601580465939" />
+    <state width="1493" height="226" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601665270988" />
     <state width="723" height="273" key="GridCell.Tab.1.bottom" timestamp="1601498942134">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -186,6 +239,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="723" height="273" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1601498942133" />
+    <state x="277" y="13" key="SettingsEditor" timestamp="1601664684666">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="277" y="13" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1601664684666" />
     <state x="498" y="324" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1601660771357">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -199,21 +256,21 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/toolkit/Perceptron.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/toolkit/Perceptron.java</url>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/toolkit/Perceptron.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/toolkit/Perceptron.java</url>
           <line>87</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/toolkit/Perceptron.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/toolkit/Perceptron.java</url>
           <line>105</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/toolkit/Perceptron.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/toolkit/Perceptron.java</url>
           <line>93</line>
           <properties class="toolkit.Perceptron" method="getWeightDelta">
             <option name="EMULATED" value="true" />
@@ -225,5 +282,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PerceptronLab$Train.ic" NAME="Train Coverage Results" MODIFIED="1601446515287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PerceptronLab$PerceptronTest_getWeightDelta.ic" NAME="PerceptronTest.getWeightDelta Coverage Results" MODIFIED="1601663452565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>toolkit.*</FILTER>
+    </SUITE>
   </component>
 </project>
