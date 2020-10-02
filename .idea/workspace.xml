@@ -20,25 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25ade893-c459-4b4f-86c8-16908235ffb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toolkit/LazyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toolkit/datademo.arff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toolkit/votingMissingValuesReplaced.arff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/BaselineLearner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/BaselineLearner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/DataMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/DataMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/MLSystemManager$ArgParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/MLSystemManager$ArgParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/MLSystemManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/MLSystemManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/Perceptron.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/Perceptron.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/SupervisedLearner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/SupervisedLearner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/data2.arff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/eucalyptus.arff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/iris.arff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/seperable.arff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/implementation.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toolkit/Perceptron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toolkit/Perceptron.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toolkit/data2.arff" beforeDir="false" afterPath="$PROJECT_DIR$/src/toolkit/datat.arff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
