@@ -1,11 +1,12 @@
 % First arff data file created by Dylan Brown
 % fake meaningless data with correlations for training and testing a perceptron
+% this data is not linearly seperable
 
 @relation fakeData
 
-@attribute x numeric
-@attribute y numeric
-@attribute class {0,1}
+@ATTRIBUTE ex continuous
+@ATTRIBUTE yy continuous
+@ATTRIBUTE class {0,1}
 
 @data
 
