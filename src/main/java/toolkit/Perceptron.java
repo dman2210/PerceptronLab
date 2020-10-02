@@ -17,7 +17,7 @@ import static toolkit.LazyUtils.print;
  */
 public class Perceptron extends SupervisedLearner {
 	Random rand;
-	double learningRate = 0.2;
+	double learningRate = 0.3;
 //	double[] predictedLabels ;
 	double[] weights;
 	double lastAccuracy = 0;

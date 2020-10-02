@@ -23,41 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25ade893-c459-4b4f-86c8-16908235ffb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PerceptronLab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PerceptronLab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/BaselineLearner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/DataMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/LazyUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/MLSystemManager$ArgParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/MLSystemManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/Perceptron.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/PerceptronTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/SupervisedLearner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/data.arff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/datademo.arff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/datat.arff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PerceptronLab/toolkit/votingMissingValuesReplaced.arff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toolkit/BaselineLearner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/BaselineLearner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toolkit/DataMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/DataMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toolkit/LazyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/LazyUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toolkit/MLSystemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/MLSystemManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toolkit/Perceptron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/Perceptron.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toolkit/PerceptronTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/toolkit/PerceptronTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toolkit/SupervisedLearner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/SupervisedLearner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toolkit/data.arff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/data.arff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toolkit/datademo.arff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/datademo.arff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toolkit/datat.arff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/datat.arff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toolkit/votingMissingValuesReplaced.arff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/votingMissingValuesReplaced.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/toolkit/Perceptron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolkit/Perceptron.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,22 +174,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="548" y="199" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601330297920" />
-    <state width="1493" height="226" key="GridCell.Tab.0.bottom" timestamp="1601665270988">
+    <state width="1493" height="226" key="GridCell.Tab.0.bottom" timestamp="1601665394779">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601665270988" />
-    <state width="1493" height="226" key="GridCell.Tab.0.center" timestamp="1601665270988">
+    <state width="1493" height="226" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601665394779" />
+    <state width="1493" height="226" key="GridCell.Tab.0.center" timestamp="1601665394778">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601665270988" />
-    <state width="1493" height="226" key="GridCell.Tab.0.left" timestamp="1601665270988">
+    <state width="1493" height="226" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601665394778" />
+    <state width="1493" height="226" key="GridCell.Tab.0.left" timestamp="1601665394778">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601665270988" />
-    <state width="1493" height="226" key="GridCell.Tab.0.right" timestamp="1601665270988">
+    <state width="1493" height="226" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601665394778" />
+    <state width="1493" height="226" key="GridCell.Tab.0.right" timestamp="1601665394778">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601665270988" />
+    <state width="1493" height="226" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601665394778" />
     <state width="723" height="273" key="GridCell.Tab.1.bottom" timestamp="1601498942134">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
